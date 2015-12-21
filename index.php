@@ -26,7 +26,7 @@
 			<td>Name</td><td><input type="text" name="name" id="name" placeholder="Restaurant Name"></td>
 		</tr>
 		<tr>
-			<td>Location</td><td><input type="text" name="loc" name="loc" placeholder="ZIP Code"></td>
+			<td>Location</td><td><input type="text" name="loc" id="loc" placeholder="ZIP Code"></td>
 		</tr>
 		<tr>
 			<td>Category</td><td><input type="text" name="category" id="category" placeholder="Category"></td> <!-- Ersetzen mit Select-->
