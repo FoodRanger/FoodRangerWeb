@@ -23,19 +23,19 @@
 	<form action="Sites/range.php" method="POST">
 	<table>
 		<tr>
-			<td>Name</td><td><input type="text" name="name" placeholder="Restaurant Name"></td>
+			<td>Name</td><td><input type="text" name="name" id="name" placeholder="Restaurant Name"></td>
 		</tr>
 		<tr>
-			<td>Location</td><td><input type="text" name="loc" placeholder="ZIP Code"></td>
+			<td>Location</td><td><input type="text" name="loc" name="loc" placeholder="ZIP Code"></td>
 		</tr>
 		<tr>
-			<td>Category</td><td><input type="text" name="category" placeholder="Category"></td> <!-- Ersetzen mit Select-->
+			<td>Category</td><td><input type="text" name="category" id="category" placeholder="Category"></td> <!-- Ersetzen mit Select-->
 		</tr>
 		<tr>
-			<td>Pricerange</td><td><input type="text" name="prize" placeholder="Prize 1-5"></td> <!-- Ersetzen mit Select-->
+			<td>Pricerange</td><td><input type="text" name="prize" id="prize" placeholder="Prize 1-5"></td> <!-- Ersetzen mit Select-->
 		</tr>
 		<tr>
-			<td>Rating</td><td><input type="text" name="rate" placeholder="Rating 1-5"></td> <!-- Ersetzen mit Select-->
+			<td>Rating</td><td><input type="text" name="rate" id="rate" placeholder="Rating 1-5"></td> <!-- Ersetzen mit Select-->
 		</tr>
 		<tr>
 			<td></td><td><button type="submit">Submit</button></td>
