@@ -9,7 +9,7 @@
 	<?php include 'Includes/header.php'; 
 
 	try {
-		$conn = new PDO('mysql:host=37.120.179.200;port=3306;dbname=restaurants', 'se', 'se2015');
+		$conn = new PDO('mysql:host=37.120.179.200;port=3306;dbname=restaurants', 'username', 'passwort');
 		// set the PDO error mode to exception
 		$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 		 
