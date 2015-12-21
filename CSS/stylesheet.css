@@ -1,0 +1,40 @@
+.content {
+	
+	padding:50px 50px 50px 70px;
+	text-align:center;
+	background-color:blue;
+	float:left;
+	margin:20px 20px 20px 20px;
+	width:30%;
+	-webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.75);
+	border-radius:25px 25px 25px 25px;
+}
+
+ .content td {
+	color:white;
+	font-family:fantasy;
+	text-shadow: 1px 1px black;
+ }
+ 
+ .content table {
+	
+	
+	padding:20px 20px 20px 60px;
+ }
+ 
+ .content button {
+	color:black;
+	font-family:fantasy;
+	text-shadow: 0px;
+}
+
+#thead {
+	background-color:white;
+}
+
+#thead td {
+	color:black !important;
+	text-shadow: 0px !important;
+}
