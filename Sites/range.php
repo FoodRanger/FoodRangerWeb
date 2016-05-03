@@ -21,7 +21,8 @@
     </script> 
 </head>
 <body>
-    <?php include '../Includes/header.php'; ?>	
+    <?php include '../Includes/header.php'; ?>
+    <?php include '../Sites/functions.php'; ?>
 	
 	<div id="map"></div>
     <script>
