@@ -424,7 +424,6 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBemhYXGzyo_Ailklr-J1MSZ2c7TeOVfRs&signed_in=true&libraries=places&callback=initMap"
         async defer></script>
 </body>
-</html>
     
 <?php 
 	$name=$_POST['name'];
